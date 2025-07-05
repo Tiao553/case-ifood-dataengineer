@@ -70,6 +70,7 @@ Arquivo: `pipe/layers/src/validation_results.txt`
 ### Subir ambiente Spark:
 
 ```bash
+bash download_jars.sh
 cd pipe/layers
 bash running_cluster.sh
 ```
