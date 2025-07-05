@@ -1,0 +1,10 @@
+.env
+pipe/layers/logs/master
+pycache
+*.pyc
+.terraform
+pipe/layers/config/spark/jars/aws-java-sdk-bundle-1.12.426.jar
+pipe/layers/config/spark/jars/delta-core_2.12-2.2.0.jar
+pipe/layers/config/spark/jars/delta-spark_2.12-3.2.0.jar
+pipe/layers/config/spark/jars/hadoop-aws-3.3.4.jar
+pipe/layers/config/spark/jars/delta-storage-3.2.0.jar

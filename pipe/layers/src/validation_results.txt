@@ -1,0 +1,30 @@
+VALIDAÇÃO DAS MÉTRICAS ANALÍTICAS
+===============================
+
+[2] Média de total_amount dos Yellow Taxis: 2710.8220259895093
+
+[3] Média de passageiros por hora do dia (maio):
+Hora 0: média = 1.40
+Hora 1: média = 1.41
+Hora 2: média = 1.43
+Hora 3: média = 1.44
+Hora 4: média = 1.39
+Hora 5: média = 1.26
+Hora 6: média = 1.23
+Hora 7: média = 1.24
+Hora 8: média = 1.26
+Hora 9: média = 1.27
+Hora 10: média = 1.31
+Hora 11: média = 1.32
+Hora 12: média = 1.34
+Hora 13: média = 1.34
+Hora 14: média = 1.35
+Hora 15: média = 1.36
+Hora 16: média = 1.37
+Hora 17: média = 1.36
+Hora 18: média = 1.36
+Hora 19: média = 1.37
+Hora 20: média = 1.38
+Hora 21: média = 1.40
+Hora 22: média = 1.41
+Hora 23: média = 1.40
