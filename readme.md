@@ -79,17 +79,17 @@ bash running_cluster.sh
 
 ```bash
 # Ingestão landing
-python pipe/ingest/main_parallel.py
+ docker exec -it spark-master   spark-submit  /app//main_parallel.py
 
 # Ingestão Bronze → Silver
-python pipe/layers/src/trips_landing_to_bronze.py
-python pipe/layers/src/trips_bronze_to_silver.py
+ docker exec -it spark-master   spark-submit  /app//trips_landing_to_bronze.py
+ docker exec -it spark-master   spark-submit  /app/trips_bronze_to_silver.py
 
 # Construção Gold
-python pipe/layers/src/trips_amout_silver_to_gold.py
+ docker exec -it spark-master   spark-submit  /app//trips_amout_silver_to_gold.py
 
 # Validações
-python pipe/layers/src/trips_yellow_report.py
+ docker exec -it spark-master   spark-submit  /app//trips_yellow_report.py
 ```
 
 ## Contato
